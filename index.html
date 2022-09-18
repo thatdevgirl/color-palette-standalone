@@ -13,10 +13,18 @@
     </header>
 
     <main>
-      <form id="color-swatch-generator">
+      <form id="generate-swatch">
         <input type="color" name="color" id="color">
         <input type="submit" value="Create swatch">
       </form>
+
+      <section id="color" class="color" aria-label="color swatch">
+        <div class="color-swatch"></div>
+        <p class="color-name">$label</p>
+        <p class="color-hex">$hex</p>
+        <p class="color-rgb">RGB: $rgb</p>
+        <p class="color-cmyk">CMYK: $cmyk</p>
+      </section>
     </main>
 
     <script src="assets/build/js/jquery-3.6.1.min.js"></script>

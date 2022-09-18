@@ -1,0 +1,40 @@
+/**
+ * Color component
+ */
+ 
+.color {
+  border: 1px solid $black;
+  color: $black;
+  margin: 2rem;
+  padding: 2rem;
+  width: max( 25%, 15rem );
+
+  &-swatch {
+    border-radius: 50%;
+    padding: 50% 50%;
+  }
+
+  p {
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    margin: 0;
+    text-align: center;
+
+    &:first-of-type {
+      padding-top: 0.5rem;
+    }
+  }
+
+  &-name,
+  &-hex,
+  &-rgb,
+  &-cmyk {
+    line-height: 2;
+  }
+
+  &-name {
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-top: 1rem;
+  }
+}
