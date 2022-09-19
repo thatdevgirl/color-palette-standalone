@@ -1,0 +1,31 @@
+/**
+ * ATOM: Input
+ */
+
+input {
+
+  &[type=color] {
+    height: 4rem;
+    width: 4rem;
+  }
+
+  &[type=text] {
+    padding: 0.5rem 1rem;
+  }
+
+  &[type=submit] {
+    background-color: $fire-opal;
+    border: darken( $fire-opal, 40% );
+    color: $white;
+    font-size: 1rem;
+    margin: 1rem 0;
+    padding: 1rem 2rem;
+
+    &:focus,
+    &:hover {
+      background-color: darken( $fire-opal, 10% );
+      cursor: pointer;
+    }
+  }
+
+}

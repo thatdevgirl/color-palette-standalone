@@ -8,26 +8,39 @@
   </head>
 
   <body>
-    <header>
-      <h1>Color Swatch Generator</h1>
-    </header>
-
     <main>
+      <header>
+        <h1>Color Swatch Generator</h1>
+      </header>
+
       <form id="generate-swatch">
-        <input type="color" name="color" id="color">
+        <fieldset>
+          <label for="color">Color value</label>
+          <input type="color" name="color" id="color">
+        </fieldset>
+
+        <fieldset>
+          <label for="name">Color name</label>
+          <input type="text" name="name" id="name">
+        </fieldset>
+
         <input type="submit" value="Create swatch">
+        <button id="download">Download swatch</button>
       </form>
 
-      <section id="color" class="color" aria-label="color swatch">
+      <section id="swatch" class="color" aria-label="color swatch">
         <div class="color-swatch"></div>
-        <p class="color-name">$label</p>
-        <p class="color-hex">$hex</p>
-        <p class="color-rgb">RGB: $rgb</p>
-        <p class="color-cmyk">CMYK: $cmyk</p>
+        <p class="color-name"></p>
+        <p class="color-hex"></p>
+        <p class="color-rgb"></p>
+        <p class="color-cmyk"></p>
       </section>
+
+      <div id="swatch-download" style="display:none"></div>
     </main>
 
     <script src="assets/build/js/jquery-3.6.1.min.js"></script>
+    <script src="assets/build/js/html2canvas.js"></script>
     <script src="assets/build/js/scripts.min.js"></script>
 
   </body>

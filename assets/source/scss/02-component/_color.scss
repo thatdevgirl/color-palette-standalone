@@ -1,10 +1,11 @@
 /**
- * Color component
+ * COMPONENT: Color
  */
  
 .color {
   border: 1px solid $black;
   color: $black;
+  display: none;
   margin: 2rem;
   padding: 2rem;
   width: max( 25%, 15rem );

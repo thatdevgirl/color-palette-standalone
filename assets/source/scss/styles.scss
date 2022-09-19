@@ -1,7 +1,16 @@
 // Base files
-@import 'base/reset';
-@import 'base/colors';
-@import 'base/typography';
+@import '00-base/reset';
+@import '00-base/colors';
+@import '00-base/typography';
+
+// Atom files
+@import '01-atom/body';
+@import '01-atom/button';
+@import '01-atom/heading';
+@import '01-atom/fieldset';
+@import '01-atom/input';
+@import '01-atom/main';
+@import '01-atom/paragraph';
 
 // Component files
-@import 'component/color';
+@import '02-component/color';

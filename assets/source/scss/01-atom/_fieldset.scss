@@ -1,0 +1,10 @@
+/**
+ * ATOM: Fieldset
+ */
+
+fieldset {
+  border: 0;
+  display: grid;
+  grid-template-columns: 7rem 1fr;
+  margin-bottom: 1rem;
+}

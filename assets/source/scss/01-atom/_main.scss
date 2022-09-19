@@ -1,0 +1,13 @@
+/**
+ * ATOM: Main
+ */
+
+main {
+  background-color: $cultured;
+  border-radius: 0.25rem;
+  box-shadow: 
+    rgba($black, 0.4) 0 0 0 2px, 
+    rgba($black, 0.65) 0 4px 6px -1px,
+    rgba($black, 0.08) 0 1px 0 inset;
+  padding: 2rem;
+}
