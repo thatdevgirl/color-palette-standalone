@@ -1,0 +1,12 @@
+/**
+ * ATOM: Link
+ */
+
+a {
+  color: $eggplant;
+
+  &:focus,
+  &:hover {
+    text-decoration: none;;
+  }
+}
