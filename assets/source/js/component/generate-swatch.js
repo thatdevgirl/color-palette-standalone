@@ -54,6 +54,12 @@ const GenerateSwatch = ( () => {
       if ( ntcName ) {
         $( '#name' ).val( ntcName[1] );
       }
+
+      // Change the site background color to this color, just for fun.
+      $( 'body' ).css( 'backgroundColor', color );
+
+      // Hide the previous color swatch, if there is one.
+      $( '#swatch' ).hide();
     } );
 
 
