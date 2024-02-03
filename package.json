@@ -1,7 +1,7 @@
 {
-  "name": "website-base",
+  "name": "color-palette-standalone",
   "version": "4.1.0",
-  "description": "Basic setup for static websites",
+  "description": "Color palette stand-along generator",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

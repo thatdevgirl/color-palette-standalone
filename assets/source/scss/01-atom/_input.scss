@@ -15,8 +15,8 @@ input {
   }
 
   &[type=submit] {
-    background-color: $fire-opal;
-    border: darken( $fire-opal, 40% );
+    background-color: $indigo-dye;
+    border: $indigo-dye;
     color: $white;
     font-size: 1rem;
     margin: 1rem 0;
@@ -24,7 +24,7 @@ input {
 
     &:focus,
     &:hover {
-      background-color: darken( $fire-opal, 10% );
+      background-color: lighten( $indigo-dye, 10% );
       cursor: pointer;
     }
   }

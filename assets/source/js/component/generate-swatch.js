@@ -60,6 +60,7 @@ const GenerateSwatch = ( () => {
 
       // Hide the previous color swatch, if there is one.
       $( '#swatch' ).hide();
+      $( '#download' ).hide();
     } );
 
 
